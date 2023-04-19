@@ -21,7 +21,7 @@ If you're interested in exploring the algorithms and data structures in this rep
 Clone the repository to your local machine using the following command:
 
 ```
-  git clone https://github.com/YourUsername/Algorithms-DataStructures.git
+  git clone https://github.com/lalidiaz/Algorithms-DataStructures.git
 ```
 
 Navigate to the cloned directory on your machine.
