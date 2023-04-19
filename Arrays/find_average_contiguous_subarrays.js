@@ -1,6 +1,6 @@
 // Given an array, find the average of all contiguous sub-arrays of size K.
 
-function avg_sub_array(arr, k) {
+function avgSubArray(arr, k) {
   // what do I need to return?
   const averages = [];
 
@@ -28,7 +28,9 @@ function avg_sub_array(arr, k) {
   return averages;
 }
 
-console.log("result 1==>", avg_sub_array([1, 2, 3, 4, 5], 3));
+console.log("result 1==>", avgSubArray([1, 2, 3, 4, 5], 3));
 //result 1==> [ 2, 3, 4 ]
-console.log("result 2==>", avg_sub_array([1, -2, 3, 8, -1, 4, 5], 5));
+console.log("result 2==>", avgSubArray([1, -2, 3, 8, -1, 4, 5], 5));
 //result 2==> [ 1.8, 2.4, 3.8 ]
+
+// O(n)
